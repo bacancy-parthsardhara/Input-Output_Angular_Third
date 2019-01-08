@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th> Bike Brand </th>
+    <th> Bike Model </th>
+    <th> Bike Engine Type </th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of bikeArray">
+      <td> {{ data.bikeBrand }} </td>
+      <td> {{ data.bikeModel }} </td>
+      <td> {{ data.bikeNumber }} </td>
+    </tr>
+  </tbody>
+</table>

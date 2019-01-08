@@ -1,0 +1,8 @@
+<app-carform (carvar)="oncarclick($event)"></app-carform>
+<table>
+  <tr *ngFor="let data of cardata">
+    <td>{{data.carBrand}}</td>
+    <td>{{data.carModel}}</td>
+    <td>{{data.carNumber}}</td>
+  </tr>
+</table>

@@ -1,0 +1,6 @@
+<input type="text"  placeholder="Enter bike Brand" [(ngModel)]="bikeBrand" /> <br/><br/>
+<input type="text"  placeholder="Enter bike Model" [(ngModel)]="bikeModel" /> <br ><br/>
+<input type="number" placeholder="Enter bike number of engine" [(ngModel)]="bikeNumber" /> <br/><br/>
+<button  (click) = "bikeform()" >submit</button> <br/><br/>
+
+<app-biketable [bikeArray]="bikeArray"></app-biketable>
