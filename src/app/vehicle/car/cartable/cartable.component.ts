@@ -8,11 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class CartableComponent implements OnInit {
 
   public cardata;
+
   oncarclick(param){
     this.cardata=param;
   }
-
-
 
   constructor() { }
 

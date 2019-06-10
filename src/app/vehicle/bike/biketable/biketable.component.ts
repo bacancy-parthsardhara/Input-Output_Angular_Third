@@ -9,7 +9,7 @@ import { Ibike } from '../ibike';
 export class BiketableComponent implements OnInit {
 
     
-    @Input('bikeArray') bikeArray :Array<Ibike> ;
+    @Input('abc') bikeArray :Array<Ibike> ;
 
   constructor() { }
 
